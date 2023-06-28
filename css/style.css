@@ -125,6 +125,7 @@ header .contenedor-texto .texto .portfolio{
 
 .trabajos .contenedor{
     overflow: hidden;
+
     
 }
 
@@ -133,7 +134,7 @@ header .contenedor-texto .texto .portfolio{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    border: 15px;
 }
 
 .trabajos .contenedor .contenedorTrabajos .trabajosLink{
@@ -148,6 +149,9 @@ header .contenedor-texto .texto .portfolio{
 .trabajos .contenedor .contenedorTrabajos .trabajosLink .link img{
     width: 100%;
     vertical-align: top;
+    border-radius: 15px;
+    box-shadow: 15px 0px 15px 0px rgb(000, 000, 000, 0.3) ;
+
 }
 
 .trabajos .contenedor .contenedorTrabajos .descripcion .tecnologias{
