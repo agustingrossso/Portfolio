@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: 'Average Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 .contenedor{
@@ -33,6 +33,7 @@ header .menu{
     margin: 0px 0px 0px 0px;
     text-align: end;
     /* box-shadow:15px; */
+
     
     
 }
@@ -40,19 +41,15 @@ header .menu{
 header .menu a{
     margin:0px 0px 0px 10px;
     color: rgb(255, 255, 255);
-    padding-bottom: 9px;
+    padding-bottom: 15px;
     display: inline-block;
     text-decoration: underline;
-    /* border: 5px solid transparent; */
-    font-size: 1em;
 
-    /* background:rgba(55, 127, 143, 0.5); */
-    /* box-shadow: 15px; */
-    /* background: linear-gradient(90deg, rgba(171,244,238,1) 1%, rgba(88,132,178,1) 48%); */
+   
 
-    /* border-radius: 5px; */
-    /* box-shadow: 2px 2px #5d5d5d ; */
-    font-size: 15px;
+    /* border-radius: 5px;
+    box-shadow: 2px 2px #5d5d5d ; */
+    font-size: 17px;
 }
 
 header .menu a:hover{
@@ -85,6 +82,7 @@ header .contenedor-texto .texto .name{
     margin-bottom: 10px;
     font-size: 100px;
     line-height: 50px;
+    font-style: normal;
 }
 
 
@@ -97,8 +95,8 @@ header .contenedor-texto .texto .portfolio{
 
 .main{
     background: #DAF0EE;
-    height: 35vh;
-}
+    width: 100%;
+    height: 100vh;}
 
 .main .contenedor{
     text-align: center;
@@ -107,12 +105,13 @@ header .contenedor-texto .texto .portfolio{
 
 .main .acercaDe .contenedor .titulo{
     /* margin-top: 15px; */
-    font-size: 30px;
+    font-size: 50px;
     margin-bottom: 30px;
     padding-top: 35px;
 }
 .main .acercaDe .contenedor .parrafo{
-    font-size: 20px
+    font-size: 25px;
+    padding-top: 10vh;
 }
 
 .trabajos{
