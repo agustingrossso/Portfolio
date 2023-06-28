@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Average Sans', sans-serif;
+}
+
 .contenedor{
     width: 98%;
     /* max-width: 1000px; */
@@ -15,10 +19,14 @@
 /* HEADER */
 
 header{
-    background: url("../img/Portada.png") #ccc;
+    background: #2F461D;
     background-repeat: no-repeat;
     background-position: center;
-    max-height: 600px;
+    background-attachment: fixed;
+    /* max-height: 600px; */
+    /* width: 100%; */
+    width: 100%;
+height: 100vh;
 }
 
 header .menu{
@@ -59,13 +67,13 @@ header .contenedor-texto{
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 90px;
+    margin: 25vh;
     margin-bottom: 0px;
 }
 
 header .contenedor-texto .texto{
-    border: 2px solid rgba(84, 222, 255, 0.5);
-    border-radius: 3px;
+    /* border: 2px solid rgba(84, 222, 255, 0.5);
+    border-radius: 3px; */
     display: inline-block;
     text-align: center;
     padding: 20px 60px;
@@ -75,13 +83,16 @@ header .contenedor-texto .texto{
 
 header .contenedor-texto .texto .name{
     margin-bottom: 10px;
-    font-size: 50px;
+    font-size: 100px;
     line-height: 50px;
 }
 
+
+
 header .contenedor-texto .texto .portfolio{
-    font-size: 25px;
+    font-size: 50px;
     line-height: 25px;
+    padding: 40px;
 }
 
 .main{
@@ -97,9 +108,11 @@ header .contenedor-texto .texto .portfolio{
 .main .acercaDe .contenedor .titulo{
     /* margin-top: 15px; */
     font-size: 30px;
+    margin-bottom: 30px;
+    padding-top: 35px;
 }
-.main .acercaDe .contenedor .titulo .parrafo{
-    font-size: 20px;
+.main .acercaDe .contenedor .parrafo{
+    font-size: 20px
 }
 
 .trabajos{
