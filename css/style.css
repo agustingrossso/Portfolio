@@ -96,7 +96,8 @@ header .contenedor-texto .texto .portfolio{
 .main{
     background: #DAF0EE;
     width: 100%;
-    height: 100vh;}
+    height: 100vh;
+}
 
 .main .contenedor{
     text-align: center;
@@ -118,14 +119,16 @@ header .contenedor-texto .texto .portfolio{
     display: flex;
     flex-direction: row;
     background-color: #D8D8D8;
-    font-size: 20px;
+    font-size: 50px;
     text-align: center;
 
 }
 
 .trabajos .contenedor{
-    overflow: hidden;
-
+    /* overflow: hidden; */
+    width: 100%;
+    height: 100vh;
+   
     
 }
 
@@ -133,12 +136,17 @@ header .contenedor-texto .texto .portfolio{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    font-size: 25px;
     justify-content: space-between;
     border: 15px;
+    /* padding: 5px 0 0 5px; */
+    padding-top: 35px;
+    margin: 15px;
 }
 
 .trabajos .contenedor .contenedorTrabajos .trabajosLink{
     width: 20%;
+    /* height: 100px; */
 }
 
 .trabajos .contenedor .contenedorTrabajos .trabajosLink .link{
