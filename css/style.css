@@ -94,13 +94,16 @@ header .contenedor-texto .texto .portfolio{
 }
 
 .main{
-    background: #DAF0EE;
+    /* background: #DAF0EE; */
     width: 100%;
     height: 100vh;
+    background-color: #7F5F16;
+    color: white;
 }
 
 .main .contenedor{
     text-align: center;
+    
     
 }
 
@@ -118,9 +121,10 @@ header .contenedor-texto .texto .portfolio{
 .trabajos{
     display: flex;
     flex-direction: row;
-    background-color: #D8D8D8;
+    background-color: #422E13;
     font-size: 50px;
     text-align: center;
+    color: white;
 
 }
 
@@ -164,6 +168,139 @@ header .contenedor-texto .texto .portfolio{
 
 .trabajos .contenedor .contenedorTrabajos .descripcion .tecnologias{
     font-size: 15px;
+}
+
+
+/* ----- --- --- HABILIDADES --- --- --  */
+
+.skills{
+    width: 100%;
+    height: 100vh;
+    background-color: #E5D99F;
+    text-align: center;
+   
+    
+}
+.skills .contenedorGlobal{
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    position: relative;
+    margin-left: 25%;
+    /* margin-top: 10px; */
+    /* margin: 25px 0 30% 0; */
+}
+.progress {
+    margin: 25px;
+  
+    padding: 2px;
+    width: 100%;
+    max-width: 500px;
+    /* border: 3px solid #05e35e; */
+    border-radius: 10px;
+    background-color: #C4C4C4;
+    height: 30px;
+  }
+  
+  .progress .progress__bar {
+    height: 100%;
+    width: 0%;
+    background-color: #422E13;
+    border-radius: 10px;
+    animation: fill-bar 3s infinite;
+  }
+
+  .progress  .fig{
+    height: 100%;
+    width: 0%;
+    background-color: #7F5F16;
+    border-radius: 10px;
+    animation: fill-barTwo 3s infinite;
+    
+  }
+
+  .progress .html {
+    background-color: #517635;
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    animation: fill-barTres 3s infinite;
+  }
+
+  .progress .js{
+    background-color: #7F5F16;
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    animation: fill-barFour 3s infinite;
+  }
+
+  .progress .react {
+    background-color: #517635;
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    animation: fill-barFive 3s infinite;
+  }
+  /* ----- KEYFRAMES ANIMACIONES ---  */
+  @keyframes fill-bar {
+    from {width: 0%;}
+    to {width: 80%;}
+  }
+  @keyframes fill-barTwo {
+    from {width: 0%;}
+    to {width: 30%;}
+  }
+  @keyframes fill-barTres {
+    from {width: 0%;}
+    to {width: 60%;}
+  }
+  @keyframes fill-barFour {
+    from {width: 0%;}
+    to {width: 40%;}
+  }
+  @keyframes fill-barFive {
+    from {width: 0%;}
+    to {width: 20%;}
+  }
+
+.skills .contenedorGlobal .contenedorPs{
+    display: flex;
+}
+
+.skills .contenedorPs img{
+    height: 25px;
+    margin: 25px;
+    /* justify-content: center;
+    align-items: center; */
+    /* position: absolute; */
+}
+.skills h3{
+    font-size: 50px;
+    /* color: white; */
+}
+
+
+/* ----- --- --- --- PIE DE PAGINA ----- --- --- */
+
+.footer{
+    width: 100%;
+    height: 25vh;
+    background-color: #2F461D;
+    text-align: center;
+}
+
+.footer .contenedor-socialMedia{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.footer a img{
+    width: 10%;
+    /* margin: 5px; */
+    padding: 15px;
+    margin-top: 10px;
 }
 
 
